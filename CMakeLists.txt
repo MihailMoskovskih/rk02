@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Project name
-project(adapter)
+project(adaper)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 23)
@@ -12,9 +12,9 @@ include_directories(${PROJECT_SOURCE_DIR})
 
 # Add source files
 set(SOURCES
-    adapter.cpp
+    adaper.cpp
 )
 
 # Add executable
-add_executable(adapter ${SOURCES})
+add_executable(adaper ${SOURCES})
 
